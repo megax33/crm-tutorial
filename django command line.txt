@@ -1,0 +1,12 @@
+querysets:
+*.objects.all()
+
+
+interactive Shell:
+python manage.py shell
+
+
+*.objects.filter(make="audi")
+
+
+*.objects.filter(year__gt=2016)
